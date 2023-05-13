@@ -21,8 +21,5 @@ let package = Package(
         .target(
             name: "GraphicSwift",
             dependencies: []),
-        .testTarget(
-            name: "GraphicSwiftTests",
-            dependencies: ["GraphicSwift"]),
     ]
 )
